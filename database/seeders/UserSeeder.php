@@ -17,20 +17,20 @@ class UserSeeder extends Seeder
     public function run()
     {
         User::create([
-            'nama_lengkap' => 'Naufal Aqil Himawan',
-            'nama_pengguna' => 'Aqil',
-            'tanggal_lahir' => '2001-09-05',
-            'nik' => '1202194271',
-            'nohp' => '0892128282939',
-            'email' => 'naufal@gmail.com',
+            'nama_lengkap' => 'Evenetus Worshiper Purba',
+            'nama_pengguna' => 'Even',
+            'tanggal_lahir' => '2001-01-01',
+            'nik' => '123456789',
+            'nohp' => '082123456789',
+            'email' => 'user@gmail.com',
             'password' => Hash::make('user'),
         ]);
         User::create([
             'nama_lengkap' => 'Admin JARSA',
             'nama_pengguna' => 'Admin',
-            'tanggal_lahir' => '2001-09-05',
-            'nik' => '12021212900',
-            'nohp' => '08123983472',
+            'tanggal_lahir' => '2001-01-01',
+            'nik' => '123456788',
+            'nohp' => '082123456788',
             'email' => 'adminjarsa@gmail.com',
             'password' => Hash::make('admin'),
             'is_admin' => true,
@@ -38,9 +38,9 @@ class UserSeeder extends Seeder
         User::create([
             'nama_lengkap' => 'Guru JARSA',
             'nama_pengguna' => 'Guru',
-            'tanggal_lahir' => '2001-09-05',
-            'nik' => '12021212900',
-            'nohp' => '08123983472',
+            'tanggal_lahir' => '2001-01-01',
+            'nik' => '123456777',
+            'nohp' => '082123456777',
             'email' => 'gurujarsa@gmail.com',
             'password' => Hash::make('guru'),
             'is_guru' => true,
